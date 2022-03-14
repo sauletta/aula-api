@@ -8,16 +8,30 @@
         "idiomas": "Anão e Comum.",
         "deslocamento": "7,5m.",
         "tracosRaciais": 
-            ["Ferramentas: Proficiência em um entre ferramentas de Ferreiro, Pedreiro ou Cervejeiro.",
-            "Lento e Firme: Deslocamento não é reduzido por armadura.",
-            "Ligação com Pedra: Adiciona dobro de proficiência em História relacionado à origem de trabalhos de pedra.",
-            "Resiliência: Resistência a dano de veneno e Vantagem em testes de resistência contra veneno.",
-            "Treino em Combate Anão: Proficiência com machado de guerra, machadinha, martelo de arremesso, martelo de guerra.",
-            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+            [
+                "Ferramentas: Proficiência em um entre ferramentas de Ferreiro, Pedreiro ou Cervejeiro.",
+                "Lento e Firme: Deslocamento não é reduzido por armadura.",
+                "Ligação com Pedra: Adiciona dobro de proficiência em História relacionado à origem de trabalhos de pedra.",
+                "Resiliência: Resistência a dano de veneno e Vantagem em testes de resistência contra veneno.",
+                "Treino em Combate Anão: Proficiência com machado de guerra, machadinha, martelo de arremesso, martelo de guerra.",
+                "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."
+            ],
         "sub-Racas":
-            ["Anão da Colina.",
-            "Anão da Montanha",
-            "Anão das Profundezas"]
+            [
+                {"anaoDaColina":
+                    ["Atributo: +1 SAB.",
+                    "Firmeza Anã: +1 PV por nível."]},
+                {"anaoDaMontanha":
+                    ["Atributo: +2 FOR.",
+                    "Proficiências: Armaduras leves e médias."]},
+                {"anaoDasProfundezas":
+                    ["Atributo: +1 FOR.",
+                    "Visão no Escuro Superior: Visão no Escuro 36m.",
+                    "Resiliência Profunda: Vantagem em testes de resistência contra ilusão e ser Enfeitiçado ou Paralisado.",
+                    "Idioma Extra: Subterrâneo.",
+                    "Magia Profunda: A partir do nível 3 pode usar a opção aumentar de Aumentar/Reduzir em você mesmo uma vez por dia. A partir do nível 5 também pode usar Invisibilidade em você mesmo uma vez por dia. Essas magias são baseadas em INT, e você não pode usá-las quando sob luz solar.",
+                    "Sensibilidade à Luz: Desvantagem em ataque e Percepção quando você ou alvo estão em luz solar direta."]}
+            ]
     },
     {
         "raca": "Elfo",
@@ -28,17 +42,49 @@
         "idiomas": "Élfico e Comum.",
         "deslocamento": "9m.",
         "tracosRaciais": 
-            ["Ancestralidade Feérica: Vantagem contra ser Enfeitiçado, imune a magias de sono.",
-            "Sentidos Afiados: Proficiência em Percepção.",
-            "Transe: Não dorme. Descanso prolongado de apenas 4 horas.",
-            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+            [
+                "Ancestralidade Feérica: Vantagem contra ser Enfeitiçado, imune a magias de sono.",
+                "Sentidos Afiados: Proficiência em Percepção.",
+                "Transe: Não dorme. Descanso prolongado de apenas 4 horas.",
+                "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."
+            ],
         "sub-Racas":
-            ["Alto Elfo.",
-            "Eladrin.",
-            "Elfo Marinho.",
-            "Elfo Negro (Drow).",
-            "Elfo Silvestre.",
-            "Elfo S'akilli."]
+            [
+                {"altoElfo":
+                    ["Tendência Comum: Leal Neutro.",
+                    "Atributo: +1 INT.",
+                    "Idioma Extra: Hábil em um idioma a mais.",
+                    "Treino em Arma: Proficiência em Espada Longa e Curta, Arco Longo e Curto.",
+                    "Truque: Conhece um truque da lista de Mago. INT é a habilidade para esse truque."]},
+                {"eladrin":
+                    ["Atributo: +1 CAR.",
+                    "Passo Feérico: Uma vez por descanso curto pode se teletransportar a até 9m com uma Ação Bônus. Essa habilidade é recuperada com um Descanso Curto. A partir do nível 3 também gera um efeito adicional de acordo com sua estação atual. A CD é baseada em CAR.",
+                        {"estacao":
+                            ["Inverno: Criaturas adjacentes antes de seu teletransporte ficarão Assustadas por você até fim de seu próximo turno. Resistência de SAB.",
+                            "Outono: Após seu Passo Feérico, até duas criaturas visíveis a até 3m de você devem passar em resistência de SAB ou ficarão Enfeitiçadas por você por 1 minuto ou até você ou seus companheiros causarem dano a ela.",
+                            "Primavera: Teletransporta aliado adjacente tocado ao invés de você.",
+                            "Verão: Após seu passo feérico, criaturas adjacentes visíveis à sua escolha sofrem seu CAR em dano de fogo."]}]},
+                {"elfoMarinho":
+                    ["Atributo: +1 CON.",
+                    "Treino em Arma: Proficiência em Lança, Tridente, Besta Leve e Rede.",
+                    "Filho do Mar: Deslocamento de nado 9m e pode respirar água.",
+                    "Amigo do Mar: Pode comunicar ideias simples com feras que possuam deslocamento de nado.",
+                    "Idioma Adicional: Aquan."]},
+                {"elfoNegro(Drow)":
+                    ["Atributo: +1 CAR.",
+                    "Magia: Conhece o truque Globos de Luz. A partir do nível 3 pode usar Fogo Feérico uma vez por dia. A partir do nível 5 também pode usar Escuridão uma vez por dia.",
+                    "Sensibilidade à Luz: Desvantagem em ataque, e Percepção de visão quando em luz solar.",
+                    "Visão no Escuro Superior: Alcance estendido para 36m."]},
+                {"elfoSilvestre":
+                    ["Atributo: +1 SAB.",
+                    "Treino em Arma: Proficiência em Espada Longa e Curta, Arco Longo e Curto.",
+                    "Pés Rápidos: +1,5m de deslocamento.",
+                    "Máscara do Ermo: Pode se esconder enquanto apenas levemente obscurecido por fenômeno natural."]},
+                {"elfoS'akilli":
+                    ["Atributo: +1 CON.",
+                    "Resistência S'akili: Resistência à dano necrótico.",
+                    "Bênção do Deus Mau: Uma vez por descanso curto pode se teletransportar a até 9m com uma Ação Bônus. Essa habilidade é recuperada com um Descanso Longo. A partir do nível 3 também recebe Resistência a todo dano até o começo de seu próximo turno após teletransportar."]}
+            ]
     },
     {
         "raca": "Humano",
@@ -50,8 +96,20 @@
         "deslocamento": "9m.",
         "tracosRaciais": null,
         "sub-Racas":
-            ["Humano Variante.",
-            "Humano S'akilli."]
+            [
+                {"humanoVariante":
+                    ["Atributo: +1 para dois atributos.",
+                    "Perícia: Proficiência em uma perícia.",
+                    "Talento: Começa o jogo com um talento."]},
+                {"humanoS'akilli":
+                    ["Tendência Comum: Leal Neutro",
+                    "Idiomas: Comum e Abissal",
+                    "Atributos: +1 em todos os atributos.",
+                    "Perícia: uma entre Atletismo, Furtividade, Arcanismo, Sobrevivência ou Intimidação.",
+                    "Resistência da Névoa: Acostumados com a loucura quase iminente, precisaram se adequar ao meio de alguma forma. Ganham vantagem em testes de resistência contra Amedrontado e Enfeitiçado.",
+                    "Talento: Possui o talento Gourmand.",
+                    "Gourmand."]}
+            ]
     },
     {
         "raca": "Pequenino (Halfling)",
@@ -62,12 +120,20 @@
         "idiomas": "Pequenino (halfling) e Comum",
         "deslocamento": "7,5m.",
         "tracosRaciais": 
-            ["Agilidade Pequenina: Pode se mover pelo espaço de criaturas maiores que você.",
-            "Corajoso: Vantagem em resistência contra amedrontado.",
-            "Sortudo: Pode re-rolar resultados de d20 iguais a 1 de jogada de ataque, teste de habilidade ou teste de resistência, deve utilizar o novo resultado."],
+            [
+                "Agilidade Pequenina: Pode se mover pelo espaço de criaturas maiores que você.",
+                "Corajoso: Vantagem em resistência contra amedrontado.",
+                "Sortudo: Pode re-rolar resultados de d20 iguais a 1 de jogada de ataque, teste de habilidade ou teste de resistência, deve utilizar o novo resultado."
+            ],
         "sub-Racas":
-            ["Coração-Forte.",
-            "Pés-Leves."]
+            [
+                {"coracao-Forte":
+                    ["Atributo: +1 CON.",
+                    "Resiliência: Resistência a dano de veneno e Vantagem em testes de resistência contra veneno."]},
+                {"pes-Leves":
+                    ["Atributo: +1 CAR.",
+                    "Naturalmente Furtivo: Pode se esconder quando apenas obscurecido por uma criatura maior."]}
+            ]
     },
     {
         "raca": "Draconato",
@@ -78,46 +144,46 @@
         "idiomas": "Dracônico e Comum.",
         "deslocamento": "9m.",
         "tracosRaciais": 
-            ["Ancestralidade Dracônica: Escolha um ancestral dracônico. Suas escamas são dessa cor, sua resistência e sopro são de acordo com o elemento ligado (veja Feiticeiro para cores).",
-            "Resistência: Recebe resistência ao elemento de seu ancestral.",
-            "Sopro: Uma vez por descanso pode fazer um sopro que causa 2d6 (resistência de DES, ou metade do dano na falha, CD 8 + Bônus de Proficiência + modificador de CON). Esse dano aumenta em 1d6 aos níveis 6, 11 e 16.",
-                {"ancestralDraconico":
-                    {
-                    "Dragão":
-                        ["Azul",
-                        "Branco",
-                        "Bronze",
-                        "Cobre",
-                        "Latão",
-                        "Negro",
-                        "Ouro",
-                        "Prata",
-                        "Verde",
-                        "Vermelho"],
-                    "tipoDeDano":
-                        ["Elétrico",
-                        "Frio",
-                        "Elétrico",
-                        "Ácido",
-                        "Fogo",
-                        "Ácido",
-                        "Fogo",
-                        "Frio",
-                        "Veneno",
-                        "Fogo"],
-                    "armaDeSopro":
-                        ["Linha de 1,5m/9m (teste de Des)",
-                        "Cone de 4,5m (teste de Con)",
-                        "Linha de 1,5m/9m (teste de Des)",
-                        "Linha de 1,5m/9m (teste de Des)",
-                        "Linha de 1,5m/9m (teste de Des)",
-                        "Linha de 1,5m/9m (teste de Des)",
-                        "Cone de 4,5m (teste de Des)",
-                        "Cone de 4,5m (teste de Des)",
-                        "Cone de 4,5m (teste de Des)",
-                        "Cone de 4,5m (teste de Des)"]
+            [
+                "Ancestralidade Dracônica: Escolha um ancestral dracônico. Suas escamas são dessa cor, sua resistência e sopro são de acordo com o elemento ligado (veja Feiticeiro para cores).",
+                "Resistência: Recebe resistência ao elemento de seu ancestral.",
+                "Sopro: Uma vez por descanso pode fazer um sopro que causa 2d6 (resistência de DES, ou metade do dano na falha, CD 8 + Bônus de Proficiência + modificador de CON). Esse dano aumenta em 1d6 aos níveis 6, 11 e 16.",
+                    {"ancestralDraconico":
+                        {
+                        "dragao":
+                            ["Azul",
+                            "Branco",
+                            "Bronze",
+                            "Cobre",
+                            "Latão",
+                            "Negro",
+                            "Ouro",
+                            "Prata",
+                            "Verde",
+                            "Vermelho"],
+                        "tipoDeDano":
+                            ["Elétrico",
+                            "Frio",
+                            "Elétrico",
+                            "Ácido",
+                            "Fogo",
+                            "Ácido",
+                            "Fogo",
+                            "Frio",
+                            "Veneno",
+                            "Fogo"],
+                        "armaDeSopro":
+                            ["Linha de 1,5m/9m (teste de Des)",
+                            "Cone de 4,5m (teste de Con)",
+                            "Linha de 1,5m/9m (teste de Des)",
+                            "Linha de 1,5m/9m (teste de Des)",
+                            "Linha de 1,5m/9m (teste de Des)",
+                            "Linha de 1,5m/9m (teste de Des)",
+                            "Cone de 4,5m (teste de Des)",
+                            "Cone de 4,5m (teste de Des)",
+                            "Cone de 4,5m (teste de Des)",
+                            "Cone de 4,5m (teste de Des)"]}
                     }
-                }
             ],
         "sub-Racas":null
     },
@@ -130,12 +196,32 @@
         "idiomas": "Gnômico e Comum.",
         "deslocamento": "7,5m.",
         "tracosRaciais": 
-            ["Esperteza Gnômica: Vantagem em testes de resistência de INT, SAB ou CAR contra magias.",
-            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+            [
+                "Esperteza Gnômica: Vantagem em testes de resistência de INT, SAB ou CAR contra magias.",
+                "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."
+            ],
         "sub-Racas":
-            ["Gnomo da Floresta.",
-            "Gnomo da Rocha.",
-            "Gnomo Sobvivo."]
+            [
+                {"gnomoDaFloresta.":
+                    ["Atributo: +1 DES.",
+                    "Ilusionista Natural: Conhece o Truque Ilusão Menor.",
+                    "Falar com Feras Pequenas: Pode comunicar ideias simples para feras Pequenas ou menores."]},
+                {"gnomoDaRocha":
+                    ["Atributo: +1 CON.",
+                    "Conhecimento do Artífice: Adiciona dobro de proficiência para testes de História relacionados a itens mágicos, objetos alquímicos e tecnológicos.",
+                    "Engenhoqueiro: Proficiente com Ferramentas de Engenhoqueiro. Com 10po e uma hora de trabalho pode criar um mecanismo mecânico (CA 5, 1 HP) que funciona por até 24h ou até ser desmontado (recuperando os materiais). Você pode ter até três mecanismos ativos ao mesmo tempo. Ao criá-lo escolha uma das seguintes funções:",
+                        {"engenhoca":
+                            ["Brinquedo Mecânico: Esse brinquedo é um animal, monstro ou pessoa mecânica, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo se move 1,5 metro pelo chão em cada um dos seus turnos em uma direção aleatória. Ele faz barulhos apropriados a criatura que ele representa. ",
+                            "Caixa de Música: Quando aberta, essa caixa de música toca uma canção a um volume moderado. A caixa para de tocar quando alcança o fim da música ou quando é fechada.",
+                            "Isqueiro Mecânico: O mecanismo produz uma miniatura de chama, que você pode usar para acender uma vela, tocha ou fogueira. Usar o mecanismo requer sua Ação."]}]},
+                {"gnomoSobvivo.":
+                    ["Atributo: +1 CON.",
+                    "Tendência Comum: Neutro.",
+                    "Natureza Imortal: Você não precisa respirar.",
+                    "Deslocamento de Escavação: 7,5m. ",
+                    "Camuflagem da Terra: Vantagem para se esconder em terreno difícil não mágico.",
+                    "Visão no Escuro Superior: Alcance estendido para 36m."]}
+            ]
     },
     {
         "raca": "Meio-elfo",
@@ -146,11 +232,23 @@
         "idiomas": "Élfico, Comum e mais um.",
         "deslocamento": "9m.",
         "tracosRaciais": 
-            ["Ancestralidade Feérica: Vantagem contra ser Enfeitiçado, imune a magias de sono.",
-            "Versatilidade em Perícia: Proficiência em duas perícias à escolha.",
-            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+            [
+                "Ancestralidade Feérica: Vantagem contra ser Enfeitiçado, imune a magias de sono.",
+                "Versatilidade em Perícia: Proficiência em duas perícias à escolha.",
+                "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."
+            ],
         "sub-Racas":
-            "Meio-elfo Variante."
+            [
+                {"meio-ElfoVariante.":
+                    ["Ancestralidade Élfica: Ao invés de Versatilidade em Perícia, escolhe uma habilidade de acordo com seu parente feérico:",
+                        {"ancestralFeerico":
+                            ["Descendentes de um Alto Elfo podem escolher o Treinamento Élfico com Armas dos Altos Elfos ou Truque.",
+                            "Descendentes de um Drow podem escolher a Magia Drow dos Drows.",
+                            "Descendentes de um Elfos Marinhos possuem deslocamento de natação de 9 metros. ",
+                            "Descendentes de um Elfo da Floresta podem escolher o Treinamento Élfico com Armas dos Elfos da Floresta, Pés Ligeiros, ou Máscara da Natureza.",
+                            "Descendentes de um Elfo S’akilli ganham Resistência S’akilli.",
+                            "Descendentes de um Eladrin podem se teletransportar até 9m, recupera com um descanso curto. "]}]}
+            ]
     },
     {
         "raca": "Meio-orc",
@@ -161,10 +259,12 @@
         "idiomas": "Orc e Comum.",
         "deslocamento": "9m.",
         "tracosRaciais":
-            ["Ataques Selvagens: Quando consegue um crítico, rola um dado extra de dano.",
-            "Intimidador: Proficiência em Intimidar.",
-            "Tolerância Infindável: Uma vez por descanso longo, ao cair a 0 sem morrer, cai para 1 ao invés.",
-            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+            [
+                "Ataques Selvagens: Quando consegue um crítico, rola um dado extra de dano.",
+                "Intimidador: Proficiência em Intimidar.",
+                "Tolerância Infindável: Uma vez por descanso longo, ao cair a 0 sem morrer, cai para 1 ao invés.",
+                "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."
+            ],
         "sub-Racas":null
     },
     {
@@ -176,22 +276,42 @@
         "idiomas": "Infernal e Comum.",
         "deslocamento": "9m.",
         "tracosRaciais": 
-            ["Resistência Diabólica: Resistência à Fogo.",
-            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m.",
-            {"caracteristicaExtra":
-                ["Asas: Possui asas de morcego e deslocamento de voo 9m.",
-                "Fogo Infernal: A partir do nível 3, uma vez por dia pode usar Mãos Flamejantes como uma magia de nível 2.",
-                "Língua Demoníaca: Conhece o Truque Escárnio Terrível. A partir do nível 3 pode usar Enfeitiçar Pessoa uma vez por dia. A partir do nível 5 também pode usar cativar uma vez por dia.",
-                "Legado Infernal: Conhece o Truque Taumaturgia. A partir do nível 3 pode usar Repreensão Infernal uma vez por dia. A partir do nível 5 também pode usar Escuridão uma vez por dia."]}],
+            [
+                "Resistência Diabólica: Resistência à Fogo.",
+                "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m.",
+                    {"caracteristicaExtra":
+                        ["Asas: Possui asas de morcego e deslocamento de voo 9m.",
+                        "Fogo Infernal: A partir do nível 3, uma vez por dia pode usar Mãos Flamejantes como uma magia de nível 2.",
+                        "Língua Demoníaca: Conhece o Truque Escárnio Terrível. A partir do nível 3 pode usar Enfeitiçar Pessoa uma vez por dia. A partir do nível 5 também pode usar cativar uma vez por dia.",
+                        "Legado Infernal: Conhece o Truque Taumaturgia. A partir do nível 3 pode usar Repreensão Infernal uma vez por dia. A partir do nível 5 também pode usar Escuridão uma vez por dia."]}
+            ],
         "sub-Racas":
-            ["Baalzebul.",
-            "Dispater.",
-            "Fierna.",
-            "Glasya.",
-            "Levistus.",
-            "Mammon.",
-            "Mephistopheles.",
-            "Zariel."]
+            [
+                {"baalzebul.":
+                    ["Atributos: +2 CAR, +1 INT.",
+                    "Legado de Maladomini: Conhece o Truque Taumaturgia. A partir do nível 3 pode usar Raio do Enjoo uma vez por dia. A partir do nível 5 também pode usar Coroa da Loucura uma vez por dia."]},
+                {"dispater":
+                    ["Atributos: +2 CAR, +1 DES.",
+                    "Legado de Dis: Conhece o Truque Taumaturgia. A partir do nível 3 pode usar Disfarçar-se uma vez por dia. A partir do nível 5 também pode usar Detectar Pensamento uma vez por dia."]},
+                {"fierna":
+                    ["Atributos: +2 CAR, +1 SAB.",
+                    "Legado de Phlegethos: Conhece o Truque Amigos. A partir do nível 3 pode usar Enfeitiçar Pessoa uma vez por dia. A partir do nível 5 também pode usar Coroa da Loucura uma vez por dia."]},
+                {"glasya":
+                    ["Atributos: +2 CAR, +1 DES.",
+                    "Legado de Malbolge: Conhece o Truque Ilusão Menor. A partir do nível 3 pode usar Disfarçar-se uma vez por dia. A partir do nível 5 também pode usar Invisibilidade uma vez por dia."]},
+                {"levistus":
+                    ["Atributos: +2 CAR, +1 CON.",
+                    "Legado de Stygia: Conhece o Truque Raio de Gelo. A partir do nível 3 pode usar Armadura de Agathys uma vez por dia. A partir do nível 5 também pode usar Escuridão uma vez por dia."]},
+                {"mammon":
+                    ["Atributos: +2 CAR, +1 INT.",
+                    "Legado de Minauros: Conhece o Truque Mãos Mágicas. A partir do nível 3 pode usar Disco Flutuante uma vez por descanso. A partir do nível 5 também pode usar Tranca Arcana uma vez por dia."]},
+                {"mephistopheles":
+                    ["Atributos: +2 CAR, +1 INT.",
+                    "Legado de Cania: Conhece o Truque Mãos Mágicas. A partir do nível 3 pode usar Mãos Flamejantes uma vez por dia. A partir do nível 5 também pode usar Lâmina de Fogo uma vez por dia."]},
+                {"zariel":
+                    ["Atributos: +2 CAR, +1 FOR.",
+                    "Legado de Avernus: Conhece o Truque Taumaturgia. A partir do nível 3 pode usar Destruição Ardente uma vez por dia. A partir do nível 5 também pode usar Destruição Marcante uma vez por dia."]}
+            ]
     },
     {
         "raca": "Tortle",
@@ -202,15 +322,28 @@
         "idiomas": "Aquan e Comum.",
         "deslocamento": "7,5m e 9m de nado.",
         "tracosRaciais": 
-            ["Garras: Suas garras são armas naturais e causam 1d4+FOR de dano cortante.",
-            "Segurar Folego: Pode prender a respiração por 1 hora.",
-            "Armadura Natural: Enquanto não vestir uma armadura sua CA é 17, você pode usar um escudo e ainda receber esse benefício.",
-            "Encolher no Casco: Com uma Ação Bônus você pode se encolher dentro do casco, ganhando +4 na CA e vantagem em testes de resistência de FOR e concentração, além disso você está caído e seu deslocamento é 0, e também tem desvantagens em testes de resistência de DES.",
-            "Instinto de Sobrevivência: Pela pouca reprodução necessitam sobreviver o máximo que podem com os recursos que conseguirem, você é proficiente na perícia sobrevivência"],
+            [
+                "Garras: Suas garras são armas naturais e causam 1d4+FOR de dano cortante.",
+                "Segurar Folego: Pode prender a respiração por 1 hora.",
+                "Armadura Natural: Enquanto não vestir uma armadura sua CA é 17, você pode usar um escudo e ainda receber esse benefício.",
+                "Encolher no Casco: Com uma Ação Bônus você pode se encolher dentro do casco, ganhando +4 na CA e vantagem em testes de resistência de FOR e concentração, além disso você está caído e seu deslocamento é 0, e também tem desvantagens em testes de resistência de DES.",
+                "Instinto de Sobrevivência: Pela pouca reprodução necessitam sobreviver o máximo que podem com os recursos que conseguirem, você é proficiente na perícia sobrevivência"
+            ],
         "sub-Racas":
-            ["Casco Navalha.",
-            "Casco Mole.",
-            "Desértico"]
+            [
+                {"cascoNavalha":
+                    ["Atributos: +1 FOR.",
+                    "Casco Navalha: Se for atingido por uma criatura a 1,5m de você, pode usar a Reação para dar 1d4 dano perfurante com a farpas de seu casco.",
+                    "Punhos Farpados: Arma natural, pode ser usado para ataques desarmados. Causa 1d4 + modificador de FOR de dano perfurante."]},
+                {"cascoMole.":
+                    ["Atributos: +1 SAB.",
+                    "Casco Mole: Perde as características Armadura Natural e Encolher no Casco. Ao mesmo em que ganha CA igual a 13 + modificador de DES.",
+                    "Agilidade da Tartaruga: O deslocamento base vira 9m e em nado 12m."]},
+                {"desertico":
+                    ["Atributos: +1 CON.",
+                    "Nômade:  Ganha proficiência em Sobrevivência e está acostumado ao Calor Extremo.",
+                    "Mestre do Casco: Quando realizar um teste de resistência de DES, você pode, com a reação, adicionar o modificador de CON ao teste. Pode usar esta habilidade o um número de vezes igual ao modificador de CON. Recupera tudo no descanso longo."]}
+            ]
     },
     {
         "raca": null,
