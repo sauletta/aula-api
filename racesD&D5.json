@@ -1,0 +1,226 @@
+[
+    {
+        "raca": "Anão",
+        "atributos": "+2 CON.",
+        "tendenciaComum": "Leal Bom.",
+        "idade": "Adultos aos 50. Vivem até 350.",
+        "tamanhoEPeso": "Médio. Vão de 1,20m até 1,50m. Pesam em média 75Kg.",
+        "idiomas": "Anão e Comum.",
+        "deslocamento": "7,5m.",
+        "tracosRaciais": 
+            ["Ferramentas: Proficiência em um entre ferramentas de Ferreiro, Pedreiro ou Cervejeiro.",
+            "Lento e Firme: Deslocamento não é reduzido por armadura.",
+            "Ligação com Pedra: Adiciona dobro de proficiência em História relacionado à origem de trabalhos de pedra.",
+            "Resiliência: Resistência a dano de veneno e Vantagem em testes de resistência contra veneno.",
+            "Treino em Combate Anão: Proficiência com machado de guerra, machadinha, martelo de arremesso, martelo de guerra.",
+            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+        "sub-Racas":
+            ["Anão da Colina.",
+            "Anão da Montanha",
+            "Anão das Profundezas"]
+    },
+    {
+        "raca": "Elfo",
+        "atributos": "+2 DES.",
+        "tendenciaComum": "Caótico.",
+        "idade": "Adultos aos 100. Vivem até 750.",
+        "tamanhoEPeso": "Médio. De pouco menos que 1,50m até 1,80m. Peso diverso, para o lado magro.",
+        "idiomas": "Élfico e Comum.",
+        "deslocamento": "9m.",
+        "tracosRaciais": 
+            ["Ancestralidade Feérica: Vantagem contra ser Enfeitiçado, imune a magias de sono.",
+            "Sentidos Afiados: Proficiência em Percepção.",
+            "Transe: Não dorme. Descanso prolongado de apenas 4 horas.",
+            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+        "sub-Racas":
+            ["Alto Elfo.",
+            "Eladrin.",
+            "Elfo Marinho.",
+            "Elfo Negro (Drow).",
+            "Elfo Silvestre.",
+            "Elfo S'akilli."]
+    },
+    {
+        "raca": "Humano",
+        "atributos": "+1 para todos os atributos.",
+        "tendenciaComum": "Nenhuma.",
+        "idade": "Adultos aos 15. Vivem até 100 anos.",
+        "tamanhoEPeso": "Médio. Mais ou menos entre 1,50m e 1,80m. Peso variado.",
+        "idiomas": "Comum e mais um.",
+        "deslocamento": "9m.",
+        "tracosRaciais": null,
+        "sub-Racas":
+            ["Humano Variante.",
+            "Humano S'akilli."]
+    },
+    {
+        "raca": "Pequenino (Halfling)",
+        "atributos": "+2 DES.",
+        "tendenciaComum": "Leal Bom.",
+        "idade": "Adultos aos 50. Vivem até 350.",
+        "tamanhoEPeso": "Pequeno. Cerca de 90cm. Peso médio 20kg.",
+        "idiomas": "Pequenino (halfling) e Comum",
+        "deslocamento": "7,5m.",
+        "tracosRaciais": 
+            ["Agilidade Pequenina: Pode se mover pelo espaço de criaturas maiores que você.",
+            "Corajoso: Vantagem em resistência contra amedrontado.",
+            "Sortudo: Pode re-rolar resultados de d20 iguais a 1 de jogada de ataque, teste de habilidade ou teste de resistência, deve utilizar o novo resultado."],
+        "sub-Racas":
+            ["Coração-Forte.",
+            "Pés-Leves."]
+    },
+    {
+        "raca": "Draconato",
+        "atributos": "+2 FOR, +1 CAR.",
+        "tendenciaComum": "Leal.",
+        "idade": "Adultos aos 15. Vivem até 80.",
+        "tamanhoEPeso": "Médio. Mais de 1,80m. Peso médio 125kg.",
+        "idiomas": "Dracônico e Comum.",
+        "deslocamento": "9m.",
+        "tracosRaciais": 
+            ["Ancestralidade Dracônica: Escolha um ancestral dracônico. Suas escamas são dessa cor, sua resistência e sopro são de acordo com o elemento ligado (veja Feiticeiro para cores).",
+            "Resistência: Recebe resistência ao elemento de seu ancestral.",
+            "Sopro: Uma vez por descanso pode fazer um sopro que causa 2d6 (resistência de DES, ou metade do dano na falha, CD 8 + Bônus de Proficiência + modificador de CON). Esse dano aumenta em 1d6 aos níveis 6, 11 e 16.",
+                {"ancestralDraconico":
+                    {
+                    "Dragão":
+                        ["Azul",
+                        "Branco",
+                        "Bronze",
+                        "Cobre",
+                        "Latão",
+                        "Negro",
+                        "Ouro",
+                        "Prata",
+                        "Verde",
+                        "Vermelho"],
+                    "tipoDeDano":
+                        ["Elétrico",
+                        "Frio",
+                        "Elétrico",
+                        "Ácido",
+                        "Fogo",
+                        "Ácido",
+                        "Fogo",
+                        "Frio",
+                        "Veneno",
+                        "Fogo"],
+                    "armaDeSopro":
+                        ["Linha de 1,5m/9m (teste de Des)",
+                        "Cone de 4,5m (teste de Con)",
+                        "Linha de 1,5m/9m (teste de Des)",
+                        "Linha de 1,5m/9m (teste de Des)",
+                        "Linha de 1,5m/9m (teste de Des)",
+                        "Linha de 1,5m/9m (teste de Des)",
+                        "Cone de 4,5m (teste de Des)",
+                        "Cone de 4,5m (teste de Des)",
+                        "Cone de 4,5m (teste de Des)",
+                        "Cone de 4,5m (teste de Des)"]
+                    }
+                }
+            ],
+        "sub-Racas":null
+    },
+    {
+        "raca": "Gnomo",
+        "atributos": "+2 INT.",
+        "tendenciaComum": "Neutro Bom.",
+        "idade": "Adultos aos 40. Vivem até 500.",
+        "tamanhoEPeso": "Pequeno. De 90cm até 1,20m. Peso médio 20kg.",
+        "idiomas": "Gnômico e Comum.",
+        "deslocamento": "7,5m.",
+        "tracosRaciais": 
+            ["Esperteza Gnômica: Vantagem em testes de resistência de INT, SAB ou CAR contra magias.",
+            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+        "sub-Racas":
+            ["Gnomo da Floresta.",
+            "Gnomo da Rocha.",
+            "Gnomo Sobvivo."]
+    },
+    {
+        "raca": "Meio-elfo",
+        "atributos": "+2 CAR, +1 para outros 2 atributos.",
+        "tendenciaComum": "Caótico Neutro",
+        "idade": "Adultos aos 20. Vivem até 180.",
+        "tamanhoEPeso": "Médio. De 1,50m até 1,80m. Peso médio 75kg.",
+        "idiomas": "Élfico, Comum e mais um.",
+        "deslocamento": "9m.",
+        "tracosRaciais": 
+            ["Ancestralidade Feérica: Vantagem contra ser Enfeitiçado, imune a magias de sono.",
+            "Versatilidade em Perícia: Proficiência em duas perícias à escolha.",
+            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+        "sub-Racas":
+            "Meio-elfo Variante."
+    },
+    {
+        "raca": "Meio-orc",
+        "atributos": "+2 FOR, +1 CON.",
+        "tendenciaComum": "Caótico Bom em Gorishrong e Caótico Mau em Gundkrom.",
+        "idade": "Adultos aos 14. Vivem até 75.",
+        "tamanhoEPeso": "Médio. 1,80m a 2,10m e pesam algo em torno de 105Kg.",
+        "idiomas": "Orc e Comum.",
+        "deslocamento": "9m.",
+        "tracosRaciais":
+            ["Ataques Selvagens: Quando consegue um crítico, rola um dado extra de dano.",
+            "Intimidador: Proficiência em Intimidar.",
+            "Tolerância Infindável: Uma vez por descanso longo, ao cair a 0 sem morrer, cai para 1 ao invés.",
+            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m."],
+        "sub-Racas":null
+    },
+    {
+        "raca": "Tiferino (Tiefling)",
+        "atributos": "+2 CAR, +1 INT.",
+        "tendenciaComum": "Caótico Neutro.",
+        "idade": "Como Humanos.",
+        "tamanhoEPeso": "Médio, Físico como humanos.",
+        "idiomas": "Infernal e Comum.",
+        "deslocamento": "9m.",
+        "tracosRaciais": 
+            ["Resistência Diabólica: Resistência à Fogo.",
+            "Visão no Escuro: Trata luz baixa como luz normal e escuridão como luz baixa, ambos a até 18m.",
+            {"caracteristicaExtra":
+                ["Asas: Possui asas de morcego e deslocamento de voo 9m.",
+                "Fogo Infernal: A partir do nível 3, uma vez por dia pode usar Mãos Flamejantes como uma magia de nível 2.",
+                "Língua Demoníaca: Conhece o Truque Escárnio Terrível. A partir do nível 3 pode usar Enfeitiçar Pessoa uma vez por dia. A partir do nível 5 também pode usar cativar uma vez por dia.",
+                "Legado Infernal: Conhece o Truque Taumaturgia. A partir do nível 3 pode usar Repreensão Infernal uma vez por dia. A partir do nível 5 também pode usar Escuridão uma vez por dia."]}],
+        "sub-Racas":
+            ["Baalzebul.",
+            "Dispater.",
+            "Fierna.",
+            "Glasya.",
+            "Levistus.",
+            "Mammon.",
+            "Mephistopheles.",
+            "Zariel."]
+    },
+    {
+        "raca": "Tortle",
+        "atributos": "+1 CON, +1 SAB.",
+        "tendenciaComum": "Caótico Bom.",
+        "idade": "Vivem até 400 anos.",
+        "tamanhoEPeso": "Médio. De 1,50m a 1,80m. Peso em torno de 200Kg.",
+        "idiomas": "Aquan e Comum.",
+        "deslocamento": "7,5m e 9m de nado.",
+        "tracosRaciais": 
+            ["Garras: Suas garras são armas naturais e causam 1d4+FOR de dano cortante.",
+            "Segurar Folego: Pode prender a respiração por 1 hora.",
+            "Armadura Natural: Enquanto não vestir uma armadura sua CA é 17, você pode usar um escudo e ainda receber esse benefício.",
+            "Encolher no Casco: Com uma Ação Bônus você pode se encolher dentro do casco, ganhando +4 na CA e vantagem em testes de resistência de FOR e concentração, além disso você está caído e seu deslocamento é 0, e também tem desvantagens em testes de resistência de DES.",
+            "Instinto de Sobrevivência: Pela pouca reprodução necessitam sobreviver o máximo que podem com os recursos que conseguirem, você é proficiente na perícia sobrevivência"],
+        "sub-Racas":
+            ["Casco Navalha.",
+            "Casco Mole.",
+            "Desértico"]
+    },
+    {
+        "raca": null,
+        "atributos": null,
+        "tendenciaComum": null,
+        "idade": null,
+        "tamanhoEPeso": null,
+        "idiomas": null,
+        "deslocamento": null,
+        "tracosRaciais": null,
+        "sub-Racas": null
+    }
+]
