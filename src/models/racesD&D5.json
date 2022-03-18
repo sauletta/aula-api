@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "raca": "Anão",
         "atributos": "+2 CON.",
         "tendenciaComum": "Leal Bom.",
@@ -34,6 +35,7 @@
             ]
     },
     {
+        "id": 2,
         "raca": "Elfo",
         "atributos": "+2 DES.",
         "tendenciaComum": "Caótico.",
@@ -87,6 +89,7 @@
             ]
     },
     {
+        "id":3,
         "raca": "Humano",
         "atributos": "+1 para todos os atributos.",
         "tendenciaComum": "Nenhuma.",
@@ -112,6 +115,7 @@
             ]
     },
     {
+        "id":4,
         "raca": "Pequenino (Halfling)",
         "atributos": "+2 DES.",
         "tendenciaComum": "Leal Bom.",
@@ -136,6 +140,7 @@
             ]
     },
     {
+        "id":5,
         "raca": "Draconato",
         "atributos": "+2 FOR, +1 CAR.",
         "tendenciaComum": "Leal.",
@@ -188,6 +193,7 @@
         "sub-Racas":null
     },
     {
+        "id":6,
         "raca": "Gnomo",
         "atributos": "+2 INT.",
         "tendenciaComum": "Neutro Bom.",
@@ -224,6 +230,7 @@
             ]
     },
     {
+        "id":7,
         "raca": "Meio-elfo",
         "atributos": "+2 CAR, +1 para outros 2 atributos.",
         "tendenciaComum": "Caótico Neutro",
@@ -251,6 +258,7 @@
             ]
     },
     {
+        "id":8,
         "raca": "Meio-orc",
         "atributos": "+2 FOR, +1 CON.",
         "tendenciaComum": "Caótico Bom em Gorishrong e Caótico Mau em Gundkrom.",
@@ -268,6 +276,7 @@
         "sub-Racas":null
     },
     {
+        "id":9,
         "raca": "Tiferino (Tiefling)",
         "atributos": "+2 CAR, +1 INT.",
         "tendenciaComum": "Caótico Neutro.",
@@ -314,6 +323,7 @@
             ]
     },
     {
+        "id":10,
         "raca": "Tortle",
         "atributos": "+1 CON, +1 SAB.",
         "tendenciaComum": "Caótico Bom.",
@@ -346,6 +356,7 @@
             ]
     },
     {
+        "id":null,
         "raca": null,
         "atributos": null,
         "tendenciaComum": null,
